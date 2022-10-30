@@ -2,9 +2,12 @@
 
 Hello, friend! You've found the sample code repository for a [Microsoft Learn module](https://docs.microsoft.com/learn/modules/persist-data-ef-core)! You'll find the finished solution on [this branch](https://github.com/MicrosoftDocs/mslearn-persist-data-ef-core/tree/solution-sample).
 
+Module URL
+https://learn.microsoft.com/en-us/training/modules/persist-data-ef-core/
+
 # Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 

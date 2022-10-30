@@ -1,3 +1,5 @@
+global using Microsoft.EntityFrameworkCore;
+using ContosoPizza.Data;
 using ContosoPizza.Services;
 // Additional using declarations
 
@@ -8,6 +10,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Add the PizzaContext
+builder.Services.AddSqlite<PizzaDbContext>("Data source=ContosoPizza.db");
+builder.Services.AddSqlite<PromotionsContext>("Data source=./Promotions/Promotions.db");
 
 // Add the PromotionsContext
 
@@ -29,5 +33,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 // Add the CreateDbIfNotExists method call
+app.CreateDbIfNotExists();
 
 app.Run();
